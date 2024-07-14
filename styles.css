@@ -1,0 +1,186 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffffd1;
+    background-image: url(hero.jpg);
+    background-color: #1b1b1b;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Merriweather', serif;
+}
+
+.backgrounds img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.header-container {
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    z-index: 1;
+}
+
+.name-title {
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.name-title h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.name-title h2 {
+    margin: 5px 0;
+    font-size: 24px;
+    color: #aaa;
+}
+
+.name-title h3 {
+    margin: 5px 0;
+    font-size: 20px;
+    color: #bbb;
+}
+
+button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+main {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.section-bg {
+    position: relative;
+    padding: 50px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.summary-content, .experience-content, .education-content, .contact, .skills, .certifications, .honors-awards {
+    position: relative;
+}
+
+.summary-content h3, .experience-content h3, .education-content h3, .contact h3, .skills h3, .certifications h3, .honors-awards h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.summary-content p, .experience-content .job p, .experience-content .role p, .education-content .school p, .contact p, .skills ul, .certifications ul, .honors-awards p {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+
+.experience-content .job {
+    margin-bottom: 40px;
+}
+
+.experience-content .job h4 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+.experience-content .job p {
+    font-size: 20px;
+}
+
+.experience-content .role {
+    margin-left: 20px;
+}
+
+.experience-content .role h5 {
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+.experience-content .role ul {
+    margin: 0;
+    font-size: 18px;
+}
+
+.experience-content .role ul li {
+    margin-bottom: 10px;
+}
+
+.skills ul, .certifications ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #888;
+    z-index: 1;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        padding: 20px;
+    }
+
+    .profile-pic img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .name-title h1 {
+        font-size: 28px;
+    }
+
+    .name-title h2 {
+        font-size: 20px;
+    }
+
+    .name-title h3 {
+        font-size: 18px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .section-bg {
+        padding: 20px;
+    }
+
+    .summary-content h3, .experience-content h3, .education-content h3, .contact h3, .skills h3, .certifications h3, .honors-awards h3 {
+        font-size: 24px;
+    }
+
+    .summary-content p, .experience-content .job p, .experience-content .role p, .education-content .school p, .contact p, .skills ul, .certifications ul, .honors-awards p {
+        font-size: 16px;
+    }
+}
